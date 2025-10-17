@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!--header-->
+<header class="active">
+    <a href="#" class="logo">PORTFOLIO</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav>
+        <a href="#" class="active">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">ABOUT</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">CONTACT</a>
+    </nav>
+</header>
+
+<!--bars backgroud-->
+<div class="bars-box active">
+    <div class="bar" style="--i:6"></div>
+    <div class="bar" style="--i:5"></div>
+    <div class="bar" style="--i:4"></div>
+    <div class="bar" style="--i:3"></div>
+    <div class="bar" style="--i:2"></div>
+    <div class="bar" style="--i:1"></div>
+</div>
+
+<!--home section-->
+<section class="home active">
+    <div class="home-detail">
+        <h1>Trung Hiếu</h1>
+        <h2>I'm a
+            <span style="--i:4;" data-text="GAME PROGRAMMING">GAME PROGRAMMING</span>
+            <span style="--i:3;" data-text="CODER">CODER</span>
+            <span style="--i:2;" data-text="DESIGNER">DESIGNER</span>
+            <span style="--i:1;" data-text="SOFTWARE ENGINEER">SOFTWARE ENGINEER</span>
+        </h2>
+        <p>Second-year student majoring in Information Technology at Binh Duong University, Viet Nam</p>
+        <div class="btn-sci">
+            <a href="#" class="btn">DOWNLOAD CV</a>
+            <div class="sci">
+                <a href="https://github.com/TrungHieu-24050039" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/share/1Gno8x9Aqd/?mibextid=wwXlfr" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
+                <a href="https://discord.com/users/1100728305910554685"><i class='bx bxl-discord-alt'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="images/xoanenvip.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--services section-->
+<section class="services">
+    <h2 class="heading">MY <span>SERVICES</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <div class="icon">
+                <i class="bx bx-code-alt"></i>
+                <a href="#"><i class="bx bx-arrow-back"></i></a>
+            </div>
+            <h3>Web Development</h3>
+            <p>I create basic websites using HTML, CSS, and Bootstrap.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class="bx bxs-paint"></i>
+                <a href="#"><i class="bx bx-arrow-back"></i></a>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>I design simple and clean user interfaces.</p>
+        </div>
+
+        <div class="services-box">
+            <div class="icon">
+                <i class="bx bxl-apple"></i>
+                <a href="#"><i class="bx bx-arrow-back"></i></a>
+            </div>
+            <h3>Software</h3>
+            <p>I develop small software projects using C++.</p>
+        </div>
+    </div>
+</section>
+
+<!--resume section-->
+<section class="resume">
+    <div class="resume-container">
+        <div class="resume-box">
+            <h2>WHY HIRE ME?</h2>
+            <P class="desc">I have a strong willingness to learn and work effectively in a team.
+I always strive to identify and fix errors to improve the quality of the product,
+and I’m always ready to take on additional tasks whenever the company needs support.</P>
+            <button class="resume-btn active">EXPERIENCE</button>
+            <button class="resume-btn">EDUCATION</button>
+            <button class="resume-btn">SKILLS</button>
+            <button class="resume-btn">ABOUT ME</button>
+        </div>
+
+        <div class="resume-box">
+            <div class="resume-detail EXPERIENCE active">
+                <h2 class="heading">My <span>Experience</span></h2>
+                <p class="desc">I’m currently a second-year Information Technology student at Binh Duong University, Viet Nam.
+I don’t have professional experience yet, but I’ve been learning and building small personal projects to improve my programming skills.
+My focus is on Software development, Web Development and UI/UX design.</p>
+            </div>
+            <div class="resume-box">
+            <div class="resume-detail EDUCATION">
+                <h2 class="heading">My <span>Education</span></h2>
+                <p class="desc">My education has provided me with a solid foundation in technology and creativity. I’m currently studying Information Technology at Binh Duong University, focusing on software and web development. Previously, I completed my high school studies at Tan Uyen Center for Vocational Education and Continuing Education.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2020 - 2024</p>
+                            <h3>Adult Education</h3>
+                            <p class="company">Tan Uyen Center for Vocational Education and Continuing Education in Binh Duong</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024 - Current</p>
+                            <h3>University</h3>
+                            <p class="company">Binh Duong University in Binh Duong</p>
+                        </div>
+                    </div>
+            </div>
+            
+          <div class="resume-detail SKILLS">
+                <h2 class="heading">My <span>Skills</span></h2>
+                <p class="desc">I have fundamental skills in C++ and Java programming, as well as web development using HTML, CSS, and Bootstrap.
+I enjoy learning new technologies and constantly improving my coding ability through practice and small projects.</p>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <i class="bx bxl-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class="bx bxl-css3"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class="bx bxl-javascript"></i>
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bx-code'></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class="bx bxl-bootstrap"></i>
+                        <span>BOOTSTRAP</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-detail ABOUT ME">
+    <h2 class="heading">About <span>Me</span></h2>
+    <p class="desc">Hello! My name is Trung Hiếu, a second-year IT student at Binh Duong University.
+I love coding, learning new things, and creating small projects that help me grow every day.
+I’m always ready to take on new challenges and improve myself.</p>
+
+    <div class="resume-list about-grid">
+        <div class="resume-item"><p>Full Name <span>Nguyễn Hoàng Trung Hiếu</span></p></div>
+        <div class="resume-item"><p>Gender <span>Male</span></p></div>
+        <div class="resume-item"><p>Age <span>20 Years Old</span></p></div>
+        <div class="resume-item"><p>Status <span>In a relationship</span></p></div>
+        <div class="resume-item"><p>City <span>Bình Dương</span></p></div>
+        <div class="resume-item"><p>Nationality <span>Việt Nam</span></p></div>
+        <div class="resume-item"><p>Full Time <span>Available</span></p></div>
+        <div class="resume-item"><p>Phone <span>(+84) 869 172 877</span></p></div>
+        <div class="resume-item"><p>Email <span>24050039@student.bdu.edu.vn</span></p></div>
+        <div class="resume-item"><p>Languages <span>Vietnamese, English</span></p></div>
+        <div class="resume-item"><p>Hobbies <span>Gaming, watching movies, traveling</span></p></div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Portfolio section-->
+<section class="portfolio">
+  <h2 class="heading">My <span>Project</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <!-- Cột trái: phần chữ -->
+      <div class="portfolio-detail active">
+        <p class="numb">01 - <span>First Project</span></p>
+        <h3>Book Store Project</h3>
+        <p>A modern online bookstore website built with HTML, CSS and JavaScript, featuring a clean design and easy navigation.</p>
+
+        <div class="tech">
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="live-github">
+          <a href="https://trunghieu-24050039.github.io/PROJECT-BOOKSTORE/"><i class="bx bx-up-arrow-alt"><span>Live Project</span></i></a>
+          <a href="https://github.com/TrungHieu-24050039/PROJECT-BOOKSTORE"><i class="bx bxl-github"><span>GitHub Repository</span></i></a>
+        </div>
+      </div>
+
+      <!-- Cột phải: phần hình -->
+      <div class="portfolio-carousel">
+        <div class="img-slide">
+          <div class="img-item"><img src="images/project.png" alt=""></div>
+          <div class="img-item"><img src="images/project1.png" alt=""></div>
+          <div class="img-item"><img src="images/project2.png" alt=""></div>
+          <div class="img-item"><img src="images/project3.png" alt=""></div>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left"><i class="bx bx-chevron-left"></i></button>
+          <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--contact section-->
+<section class="contact">
+  <div class="contact-container">
+    
+    <!-- Cột trái -->
+    <div class="contact-box">
+      <h2>Let's Work Together</h2>
+      <p class="desc">
+        If you are looking for opportunities to collaborate, hire, or simply connect — feel free to reach out to me.
+        I’m always open to new projects, creative ideas, and opportunities for professional growth.
+      </p>
+
+      <div class="contact-detail">
+        <i class="bx bxs-phone"></i>
+        <div class="detail">
+          <p>Phone</p>
+          <p>(+84) 869 172 877</p>
+        </div>
+      </div>
+
+      <div class="contact-detail">
+        <i class="bx bxs-envelope"></i>
+        <div class="detail">
+          <p>Email</p>
+          <p>24050039@student.bdu.edu.vn</p>
+        </div>
+      </div> 
+
+      <div class="contact-detail">
+        <i class="bx bxs-map"></i>
+        <div class="detail">
+          <p>Address</p>
+          <p>Long Binh, Tan Hiep, Ho Chi Minh city</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cột phải -->
+    <div class="contact-box">
+      <form action="">
+        <h2 class="heading">Contact<span> Me!</span></h2>
+        <div class="field-box">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="text" placeholder="Phone Number" required>
+          <input type="text" placeholder="Email Subject" required>
+          <textarea name="" id="" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!--custom js-->
+<script src="script.js"></script>
+
+</body>
+</html>
